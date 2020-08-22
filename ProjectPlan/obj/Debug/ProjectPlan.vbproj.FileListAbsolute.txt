@@ -1,0 +1,12 @@
+C:\Users\marcel\Documents\Developpement\myRepository\ProjectPlan\bin\Debug\ProjectPlan.exe.config
+C:\Users\marcel\Documents\Developpement\myRepository\ProjectPlan\bin\Debug\ProjectPlan.exe
+C:\Users\marcel\Documents\Developpement\myRepository\ProjectPlan\bin\Debug\ProjectPlan.pdb
+C:\Users\marcel\Documents\Developpement\myRepository\ProjectPlan\bin\Debug\ProjectPlan.xml
+C:\Users\marcel\Documents\Developpement\myRepository\ProjectPlan\obj\Debug\ProjectPlan.vbprojAssemblyReference.cache
+C:\Users\marcel\Documents\Developpement\myRepository\ProjectPlan\obj\Debug\ProjectPlan.MDIMain.resources
+C:\Users\marcel\Documents\Developpement\myRepository\ProjectPlan\obj\Debug\ProjectPlan.Resources.resources
+C:\Users\marcel\Documents\Developpement\myRepository\ProjectPlan\obj\Debug\ProjectPlan.vbproj.GenerateResource.cache
+C:\Users\marcel\Documents\Developpement\myRepository\ProjectPlan\obj\Debug\ProjectPlan.vbproj.CoreCompileInputs.cache
+C:\Users\marcel\Documents\Developpement\myRepository\ProjectPlan\obj\Debug\ProjectPlan.exe
+C:\Users\marcel\Documents\Developpement\myRepository\ProjectPlan\obj\Debug\ProjectPlan.xml
+C:\Users\marcel\Documents\Developpement\myRepository\ProjectPlan\obj\Debug\ProjectPlan.pdb
