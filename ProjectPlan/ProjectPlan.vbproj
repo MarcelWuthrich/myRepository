@@ -48,11 +48,16 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel">
+      <HintPath>references\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -80,6 +85,97 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmAbout.Designer.vb" />
+    <Compile Include="frmAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAllResources.Designer.vb" />
+    <Compile Include="frmAllResources.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChart.Designer.vb" />
+    <Compile Include="frmChart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDashboard.Designer.vb" />
+    <Compile Include="frmDashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDBChoice.Designer.vb" />
+    <Compile Include="frmDBChoice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb" />
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManage.Designer.vb" />
+    <Compile Include="frmManage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPlanProject.Designer.vb" />
+    <Compile Include="frmPlanProject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProjectAddEstimateRessource.Designer.vb" />
+    <Compile Include="frmProjectAddEstimateRessource.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProjectCustomer.Designer.vb" />
+    <Compile Include="frmProjectCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProjectDetails.Designer.vb" />
+    <Compile Include="frmProjectDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProjectManagerDetails.Designer.vb" />
+    <Compile Include="frmProjectManagerDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProjectMemberDetails.Designer.vb" />
+    <Compile Include="frmProjectMemberDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProjectRemarks.Designer.vb" />
+    <Compile Include="frmProjectRemarks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProjectRemarkText.Designer.vb" />
+    <Compile Include="frmProjectRemarkText.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResourceAdmin.Designer.vb" />
+    <Compile Include="frmResourceAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResourceAdminList.Designer.vb" />
+    <Compile Include="frmResourceAdminList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResourceProject.Designer.vb" />
+    <Compile Include="frmResourceProject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmResourceProjectList.Designer.vb" />
+    <Compile Include="frmResourceProjectList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelectDB.Designer.vb" />
+    <Compile Include="frmSelectDB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStatistiques.Designer.vb" />
+    <Compile Include="frmStatistiques.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTabResources.Designer.vb" />
+    <Compile Include="frmTabResources.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlobalProjectPlan.vb" />
+    <Compile Include="GlobalSuppressions.vb" />
+    <Compile Include="local.vb" />
     <Compile Include="MDIMain.Designer.vb">
       <DependentUpon>MDIMain.vb</DependentUpon>
     </Compile>
@@ -101,8 +197,46 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="myAdminResource.vb" />
+    <Compile Include="myCustomer.vb" />
+    <Compile Include="myExecuteResource.vb" />
+    <Compile Include="myPlanResource.vb" />
+    <Compile Include="myPriority.vb" />
+    <Compile Include="myProject.vb" />
+    <Compile Include="myProjectCategory.vb" />
+    <Compile Include="myProjectEstimatedResource.vb" />
+    <Compile Include="myProjectHistory.vb" />
+    <Compile Include="myProjectManager.vb" />
+    <Compile Include="myProjectMember.vb" />
+    <Compile Include="myProjectPriority.vb" />
+    <Compile Include="myProjectRemark.vb" />
+    <Compile Include="myStatistics.vb" />
+    <Compile Include="myStatus.vb" />
+    <Compile Include="myTask.vb" />
+    <Compile Include="myUrgency.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmAbout.resx" />
+    <EmbeddedResource Include="frmAllResources.resx" />
+    <EmbeddedResource Include="frmChart.resx" />
+    <EmbeddedResource Include="frmDashboard.resx" />
+    <EmbeddedResource Include="frmMain.resx" />
+    <EmbeddedResource Include="frmManage.resx" />
+    <EmbeddedResource Include="frmPlanProject.resx" />
+    <EmbeddedResource Include="frmProjectAddEstimateRessource.resx" />
+    <EmbeddedResource Include="frmProjectCustomer.resx" />
+    <EmbeddedResource Include="frmProjectDetails.resx" />
+    <EmbeddedResource Include="frmProjectManagerDetails.resx" />
+    <EmbeddedResource Include="frmProjectMemberDetails.resx" />
+    <EmbeddedResource Include="frmProjectRemarks.resx" />
+    <EmbeddedResource Include="frmProjectRemarkText.resx" />
+    <EmbeddedResource Include="frmResourceAdmin.resx" />
+    <EmbeddedResource Include="frmResourceAdminList.resx" />
+    <EmbeddedResource Include="frmResourceProject.resx" />
+    <EmbeddedResource Include="frmResourceProjectList.resx" />
+    <EmbeddedResource Include="frmSelectDB.resx" />
+    <EmbeddedResource Include="frmStatistiques.resx" />
+    <EmbeddedResource Include="frmTabResources.resx" />
     <EmbeddedResource Include="MDIMain.resx">
       <DependentUpon>MDIMain.vb</DependentUpon>
     </EmbeddedResource>
